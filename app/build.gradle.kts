@@ -18,6 +18,12 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        buildConfigField(
+            type = "String",
+            name = "API_KEY",
+            value = "YhpyjIJN4N4l3a1xvAt6qyHjqpFf5xfx"
+        )
     }
 
     buildTypes {
@@ -50,7 +56,8 @@ android {
 }
 
 dependencies {
-    implementation(libs.giphy)
+    implementation(libs.retrofit)
+    implementation(libs.retrofitGson)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
