@@ -1,4 +1,4 @@
-package com.giphy.searchapp.data.model
+package com.giphy.searchapp.data.model.dto
 
 import com.google.gson.annotations.SerializedName
 

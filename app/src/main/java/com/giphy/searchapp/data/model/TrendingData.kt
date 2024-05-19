@@ -1,5 +1,6 @@
 package com.giphy.searchapp.data.model
 
+import com.giphy.searchapp.data.model.dto.GifResponse
 import com.google.gson.annotations.SerializedName
 
 internal data class TrendingData(
